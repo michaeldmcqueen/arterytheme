@@ -3,13 +3,13 @@ type: theme
 description: 'Downtown Artery custom D8 theme'
 core: 8.x
 libraries:
-    - artery/assets/style.css
-    - artery/assets/scripts.js
+  - artery/global-styling
 base theme: classy
 
 regions:
   header: Header
   preface: Preface
+  help: Help
   content: Content  # the content region is required
   sidebar: Sidebar
   postscript: Postscript
