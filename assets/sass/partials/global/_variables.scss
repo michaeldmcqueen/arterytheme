@@ -6,25 +6,25 @@ $rem: 16px;
 
 // Colors
 // Sites Main Colors
-$color-one: #0F7ABD; // Green
-$color-two: #F5A623; // Orange
+$color-one: #CF1C1F; // Red
+$color-two: #3DBE61; // Green
 $color-three: #858585; // Grey
 
 // Regions - Use Site Main Colors variables for these if they fit
 $nav-bg: $color-three;
 $site-bg: #fff;
 $main-bg: #fff;
-$footer-bg: #272727;
+$footer-bg: #232323;
 
 
 
 //nav
 $nav-border: #CFCFCF;
 // Typography
-$body-copy-color: #3D3D3D;
-$heading-color: #272727;
+$body-copy-color: #414141;
+$heading-color: #414141;
 
-$link           : #0F7ABD;
+$link           : #CF1C1F;
 $visited        : darken($link, 10%);
 $hover          : lighten($link, 10%);
 
