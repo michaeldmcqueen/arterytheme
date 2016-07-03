@@ -1,0 +1,45 @@
+.node-portfolio.view-mode-full {
+  .intro {
+    @include intro;
+  }
+}
+
+
+.service-list {
+  margin-bottom: 2em;
+  .view-header {
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  .view-content {
+    .views-row {
+      position: relative;
+      &:before {
+        content: '';
+        display: inline-block;
+        background: url('../images/arrow.png');
+        width: 7px;
+        height: 12px;
+        margin-right: 1em;
+        position: absolute;
+        left: 10px;
+        top: 22px;
+      }
+      a {
+        border-top: 1px solid #CDCDCD;
+        font-family: $heading-font-family;
+        color: $heading-color;
+        text-decoration: none;
+        display: block;
+        font-size: 1em;
+        padding: .75em 1em .75em 2em;
+        &.active {
+          background: #F4F4F4;
+        }
+      }
+      &:last-child a {
+        border-bottom: 1px solid #CDCDCD;
+      }
+    }
+  }
+}

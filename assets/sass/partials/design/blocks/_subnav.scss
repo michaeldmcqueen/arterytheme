@@ -1,0 +1,61 @@
+.sidebar-second .block-menu-block {
+  margin-bottom: 2em;
+  ul, h2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1em;
+  }
+  h2 {
+    position: relative;
+    padding-left: .5em;
+    &:before {
+      content: '';
+      display: inline-block;
+      background: url('../images/arrow.png');
+      width: 7px;
+      height: 12px;
+      margin-right: 1em;
+      position: absolute;
+      left: 5px;
+      top: 18px;
+    }
+  }
+  ul li {
+    padding: 0;
+    list-style: none;
+    font-size: 0.9em;
+  }
+  ul li {
+    position: relative;
+    margin: 0;
+    &:before {
+      content: '';
+      display: inline-block;
+      background: url('../images/arrow.png');
+      width: 7px;
+      height: 12px;
+      margin-right: 1em;
+      position: absolute;
+      left: 25px;
+      top: 18px;
+    }
+  }
+  a {
+    border-top: 1px solid #CDCDCD;
+    font-family: $heading-font-family;
+    color: $heading-color;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    padding: .75em 1em .75em 3em;
+    &.active {
+      background: #F4F4F4;
+    }
+  }
+  h2 {
+    a {
+      padding: .75em 1em;
+    }
+  }
+}

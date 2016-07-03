@@ -1,0 +1,22 @@
+.node-product.view-mode-full {
+  @include clearfix;
+  .section-one {
+    padding-bottom: 1em;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      @include grid-span(6, 1);
+    }
+  }
+  .section-two {
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      @include grid-span(6, 7);
+    }
+    @include gallery;
+  }
+  .category-link, .company-link {
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+  .company-link {
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,21 @@
+form {
+  label {
+    color: $heading-color;
+    font-weight: 700;
+    font-size: 110%;
+    padding-bottom: .25em;
+  }
+}
+
+.form-item {
+  padding: 1em 0;
+  margin: 0;
+  .description {
+    font-size: 0.8em;
+    margin: 1em 0;
+    color: $color-three;
+  }
+  .form-item {
+    padding: 0;
+  }
+}

@@ -1,0 +1,39 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  tr {
+    padding: 0;
+    &.odd {
+      background-color: $table-row-odd;
+      border-bottom: 0;
+    }
+    &.even {
+      background-color: $table-row-even;
+      border-bottom: 0;
+    }
+  }
+  td {
+    padding: 0.5em 2em;
+    margin: 0;
+  }
+  tbody {
+    font-size: .9em;
+  }
+}
+
+table.sticky-enabled, table.sticky-header {
+  thead {
+    th {
+      border-bottom: 3px solid $link;
+      padding: 1em 0 1em 2em;
+    }
+  }
+}
+
+a.tabledrag-handle .handle {
+    height: 22px;
+    margin: 0;
+    padding: 0.42em 0.5em;
+    width: 33px;
+}

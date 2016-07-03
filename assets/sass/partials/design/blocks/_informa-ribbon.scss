@@ -1,0 +1,71 @@
+#iribbon-container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: #fff;
+    height: 55px;
+    float: left;
+    font-size: 13px;
+    line-height: 18px;
+    position: relative;
+    top: 0;
+    z-index: 99;
+}
+.show #iribbon-detail {
+    max-height: 400px;
+}
+div#iribbon-wrapper {
+    background: $black;
+    border-bottom: 1px solid #A5ACAF;
+    position: absolute;
+    width: 100%;
+    padding: .75em 2%;
+}
+#iribbon-detail {
+    /* display: none; */
+    overflow: hidden;
+    max-height: 0;
+    max-width: 1180px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    transition: max-height ease-in-out 500ms;
+}
+#iribbon-title {
+    height: 16px;
+    width: 92px;
+    background: url('../images/iribbon-logo.gif') no-repeat top center;
+    font-size: 0em;
+    color: #525a5c;
+    margin: 10px auto;
+    clear: both;
+    cursor: pointer;
+}
+
+.logged-in {
+  #iribbon-container {
+    //z-index: 0;
+  }
+}
+#iribbon-right, #iribbon-left {
+    max-width: 570px;
+    width: 47%;
+    float: left;
+    margin: 40px 0;
+}
+#iribbon-detail ul, #iribbon-detail ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+#iribbon-detail ul li {
+    padding: 0 10px 0 5px;
+    line-height: 1em;
+    border-right: 1px solid #A5ACAF;
+}
+#iribbon-detail ul li a {
+    text-transform: uppercase;
+}
+#iribbon-container a {
+    color: #fff;
+}

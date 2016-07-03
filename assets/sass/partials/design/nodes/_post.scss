@@ -1,0 +1,45 @@
+.node-article.view-mode-full {
+  .field-name-post-date {
+    font-size: 1.3em;
+    font-style: italic;
+    margin-bottom: 2em;
+  }
+
+}
+
+.node-type-article {
+  .sidebar-second .block-views {
+    margin-bottom: 2em;
+    margin-top: 2em;
+    h2 {
+      font-size: 1.4em;
+    }
+    .views-row {
+      position: relative;
+      &:before {
+        content: '';
+        display: inline-block;
+        background: url('../images/arrow.png');
+        width: 7px;
+        height: 12px;
+        margin-right: 1em;
+        position: absolute;
+        left: 10px;
+        top: 22px;
+      }
+    }
+    a {
+      border-top: 1px solid #CDCDCD;
+      font-family: $heading-font-family;
+      color: $heading-color;
+      text-decoration: none;
+      display: block;
+      font-size: 1em;
+      padding: .75em 1em .75em 2em;
+      &.active {
+        background: #F4F4F4;
+      }
+
+    }
+  }
+}

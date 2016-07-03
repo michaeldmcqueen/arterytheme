@@ -1,0 +1,45 @@
+.view-product-category-landing-page {
+  .views-row {
+    padding: 1em 0;
+    .section-one {
+      float: left;
+      width: 25%;
+      margin-right: 1em;
+    }
+    .section-two {
+      overflow: hidden;
+    }
+  }
+}
+
+// Category Listin Pages
+.view-category-term {
+  .attachment-before {
+    padding-bottom: 1em;
+    margin-bottom: 3em;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+.view-mode-product_walking_list {
+  @include clearfix;
+  padding-top: 1em;
+  .section-one {
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+        float: left;
+        width: 25%;
+        margin-right: 2em;
+      }
+    }
+    .section-two {
+      overflow: hidden;
+      h2 {    
+        font-weight: normal;
+        font-size: 1.2em;
+        @include breakpoint($bp-medium, $no-query: '.no-mq') {
+          margin-top: 0;
+          font-size: 1.4em;
+        }
+      }
+    }
+}

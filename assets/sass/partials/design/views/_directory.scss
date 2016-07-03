@@ -1,0 +1,116 @@
+.view-display-id-page, .page-search  {
+  .alpha-pagination {
+    display: none;
+    @include breakpoint($bp-small, $no-query: '.no-mq') {
+      display: block;
+    }
+  }
+
+  .views-exposed-form .views-exposed-widget {
+    margin-bottom: 1em;
+    display: inline-block;
+    width: 100%;
+    @include breakpoint($bp-small, $no-query: '.no-mq') {
+      margin-right: 1em;
+      width: auto;
+    }
+
+  }
+
+  .views-row, .node-listing.node-teaser, .node-booth.node-teaser  {
+    padding: 2em 0;
+    border-bottom: 1px solid #CACACA;
+    @include clearfix;
+    .section-one {    
+      padding-bottom: 2em;
+      text-align: center;
+      font-size: 85%;
+      font-weight: 700;
+      @include breakpoint($bp-small, $no-query: '.no-mq') {
+        display: inline-block;
+        vertical-align: top;
+        width: 25%;
+        padding-bottom: 0;
+        margin-right: 5%;
+      }
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+        margin-right: 4%;
+        width: 21%;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+    }
+    .section-two {
+      @include breakpoint($bp-small, $no-query: '.no-mq') {
+        display: inline-block;
+        vertical-align: top;
+        width: 65%;
+        margin-right: 2%;
+      }
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+        width: 50%;
+      }
+      h3 {
+        margin-top: 0;
+        a {
+          color: inherit;
+        }
+      }
+
+    }
+    .section-three {    
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+        display: inline-block;
+        vertical-align: top;
+        width: 20%;
+      }
+      a {
+        width: 100%;
+      }
+    }
+  }
+  .booth-section-location {
+    padding-top: 2.5em;
+    div, span {
+      display: inline-block;
+      a {
+        color: inherit;
+      }
+    }
+    .dash {
+      padding: 0 .35em;
+    }
+  }
+}
+
+
+
+.view-mode-booth_walking_list {
+  @include clearfix;
+  padding-top: 1em;
+  .section-one {
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+        float: left;
+        width: 25%;
+        margin-right: 2em;
+      }
+    }
+    .section-two {
+      overflow: hidden;
+      h1 {    
+        font-weight: normal;
+        font-size: 1.2em;
+        @include breakpoint($bp-medium, $no-query: '.no-mq') {
+          margin-top: 0;
+          font-size: 1.4em;
+        }
+      }
+    }
+}
