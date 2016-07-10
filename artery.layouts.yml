@@ -7,3 +7,16 @@ two_column:
       label: one
     two:
       label: two
+events:
+  label: Events Full Node
+  category: My Layouts
+  template: templates/events
+  regions:
+    one:
+      label: one
+    two:
+      label: two
+    three:
+      label: three
+    four:
+      label: four
