@@ -18,6 +18,16 @@ body.events {
     padding-bottom: 1.3em;
     text-transform: uppercase;
     margin-bottom: 2em;
+    .date {
+      display: inline-block;
+      padding-right: 1em;
+      color: $color-one;
+      font-weight: 700;
+    }
+    .time {
+      display: inline-block;
+      padding-right: 1em;
+    }
   }
 
   .field--name-field-with {
