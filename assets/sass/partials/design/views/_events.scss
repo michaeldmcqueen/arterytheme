@@ -1,0 +1,30 @@
+.events-list {
+  .views-row {
+    @include clearfix;
+    padding: 1em 0;
+    border-top: 1px solid #ccc;
+  }
+  .section-one {
+    float: left;
+    width: 100px;
+    margin-right: 2em;
+  }
+  .section-two {
+    overflow: hidden;
+    h2 {
+      margin: 0 0 5px;
+    }
+  }
+  .field--name-field-date {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $link;
+    display: inline-block;
+    padding-right: 1em;
+  }
+  .field--name-field-time {
+    text-transform: uppercase;
+    color: #A1A1A1;
+    display: inline-block;
+  }
+}
