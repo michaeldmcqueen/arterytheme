@@ -13,6 +13,10 @@
     overflow: hidden;
     h2 {
       margin: 0 0 5px;
+      a {
+        color: inherit;
+        text-transform: underline;
+      }
     }
   }
   .field--name-field-date {
@@ -21,10 +25,14 @@
     color: $link;
     display: inline-block;
     padding-right: 1em;
+    font-size: 90%;
+    margin-bottom: .25em;
   }
   .field--name-field-time {
     text-transform: uppercase;
     color: #A1A1A1;
     display: inline-block;
+    font-size: 90%;
+    margin-bottom: .25em;
   }
 }
