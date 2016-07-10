@@ -1,0 +1,9 @@
+two_column:
+  label: Custom Two Column
+  category: My Layouts
+  template: templates/two-column
+  regions:
+    one:
+      label: one
+    two:
+      label: two
